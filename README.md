@@ -1,12 +1,29 @@
-# React + Vite
+# 🏋️‍♂️ Fitness
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the **Fitness Exercise App**! This web app is designed to help you explore a variety of exercises, learn proper techniques, and watch detailed instructional videos to improve your fitness journey.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Exercise Library**: Browse through a wide range of exercises for different body parts (e.g., legs, arms, core).
+- **Exercise Details**: View detailed information about each exercise, including steps, tips, and benefits.
+- **Instructional Videos**: Watch videos demonstrating each exercise with proper form and technique.
+- **Search & Filter**: Easily search for exercises by name or filter by type (e.g., strength, cardio, flexibility).
+- **Exercise Categories**: Browse exercises categorized by difficulty level, targeted muscle group, and equipment used.
+- - **Material UI**: Beautiful and responsive UI built with Material UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack 
+- **Frontend**: React.js
+- **Backend**: Axios
+- **API Integrations**: RapidAPI for Exercise DB and YouTube Search
 
-## Expanding the ESLint configuration
+## ⚙️ Installation
+### 1. Clone the repository
+`git clone https://github.com/sanku351/fitness.git`
+### 2. Install dependencies
+Navigate to the project folder and install the dependencies. `cd fitness` `npm install`
+### 3. Set up environment variables
+Create a `.env` file in the root directory and add the necessary environment variables.
+### 4. Run the app 
+`npm run dev`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
